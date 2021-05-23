@@ -1,0 +1,235 @@
+.midContent__Poll {
+  display: flex;
+  margin: 15px;
+}
+
+.midContent__Poll__left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+  /* border-radius: 5px; */
+}
+
+.midContent__Poll__right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+  margin-left: 40px;
+}
+
+.midContent__Poll__left__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.midContent__Poll__right__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.midContent__Poll__left__head__para {
+  font-size: 12px;
+  font-weight: 600;
+  color: gray;
+}
+
+.midContent__Poll__left__head__btn {
+  border: none;
+  padding: 7px 20px;
+  background-color: purple;
+  color: white;
+  font-size: 8px;
+  border-radius: 5px;
+}
+
+.midContent__Poll__right__head__btn {
+  padding: 7px 20px;
+  font-size: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+.midContent__Poll__left__bottom {
+  background-color: white;
+}
+
+.midContent__Poll__right__bottom {
+  background-color: white;
+}
+
+.midContent__Poll__left__bottom__IconTop {
+  display: flex;
+  align-items: center;
+}
+
+.starIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  color: rgb(255, 166, 0);
+  background-color: rgb(255, 234, 149);
+}
+
+.midContent__Poll__left__bottom__text__btn {
+  color: rgb(255, 166, 0);
+  background-color: rgb(255, 234, 149);
+  font-size: 10px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.midContent__Poll__left__bottom__text {
+  margin-left: 10px;
+}
+
+.midContent__Poll__left__bottomUp {
+  padding: 15px 10px;
+  border: 1px solid rgb(172, 169, 169);
+  border-bottom: none;
+}
+
+.midContent__Poll__right__bottomUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  border: 1px solid rgb(172, 169, 169);
+  border-bottom: none;
+}
+
+.midContent__Poll__left__bottom__sameClass {
+  font-size: 12px;
+  color: gray;
+}
+
+/* bottom styling start */
+
+.midContent__Poll__left__bottomDown__IconTop {
+  display: flex;
+  align-items: center;
+}
+
+.NotesIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  color: rgb(109, 13, 128);
+  background-color: rgb(191, 129, 252);
+}
+
+.midContent__Poll__left__bottomDown__text__btn {
+  color: rgb(109, 13, 128);
+  background-color: rgb(191, 129, 252);
+  font-size: 10px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.midContent__Poll__left__bottomDown__text {
+  margin-left: 10px;
+}
+
+.midContent__Poll__left__bottomDown {
+  padding: 15px 10px;
+  border: 1px solid rgb(172, 169, 169);
+}
+
+.midContent__Poll__right__bottomDown {
+  padding: 15px 10px;
+  border: 1px solid rgb(172, 169, 169);
+}
+
+.midContent__Poll__left__bottomCreatePoll {
+  background-color: purple;
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 12px;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+/* bottom styling end */
+
+.midContent__Poll__right__bottomUp__nums {
+  display: flex;
+}
+
+.midContent__Poll__right__bottomUp__num {
+  height: 25px;
+  width: 25px;
+  color: gray;
+  box-shadow: 0px 5px 5px -4px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3px;
+}
+
+.midContent__Poll__right__bottomDown {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.teamName {
+  width: 50px;
+}
+
+.flex__left {
+  display: flex;
+  align-items: center;
+}
+
+.percentage {
+  height: 25px;
+  width: 350px;
+  background-color: purple;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.percentage2 {
+  height: 25px;
+  width: 70px;
+  background-color: rgb(143, 102, 143);
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.percentage3 {
+  height: 25px;
+  width: 160px;
+  background-color: rgb(143, 102, 143);
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.percentage4 {
+  height: 25px;
+  width: 250px;
+  background-color: rgb(143, 102, 143);
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.circleFont {
+  color: white;
+}

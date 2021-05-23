@@ -1,0 +1,46 @@
+.leftSidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.05;
+  height: 100vh;
+  box-shadow: 1px 0px 10px 0px grey;
+}
+
+.leftSidebar__Item__top {
+  height: 50px;
+  width: 60px;
+  border: 1px solid purple;
+  color: white;
+  margin: 5px;
+  text-align: center;
+  padding-top: 15%;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: purple;
+}
+
+.leftSidebar__Item {
+  height: 50px;
+  width: 60px;
+  border: 1px solid gray;
+  color: gray;
+  margin: 5px;
+  text-align: center;
+  padding-top: 15%;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.leftSidebar__Item__active {
+  border: 1px solid purple;
+  color: purple;
+}
+
+.leftSidebar__Item:hover {
+  border: 1px solid purple;
+  color: purple;
+}
+
+.leftSidebar__Item__para {
+  font-size: 10px;
+}

@@ -1,0 +1,6 @@
+.midContent {
+  display: flex;
+  flex-direction: column;
+  flex: 0.9;
+  background-color: rgb(237, 237, 237);
+}
