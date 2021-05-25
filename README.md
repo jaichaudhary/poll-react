@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Project Link : http://boringstudy.me/poll-react/
+Project Link : http://jaichaudhary.github.io/poll-react/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
